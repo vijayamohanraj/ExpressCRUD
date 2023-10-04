@@ -1,0 +1,21 @@
+GET http://localhost:2020/read
+
+POST http://localhost:2020/insert
+Content-Type: application/json
+
+{
+    "id":1,
+    "name":"Vijay",
+    "city":"Attur"
+}
+
+PUT http://localhost:2020/update
+Content-Type: application/json
+
+{
+    "id":3,
+    "name":"Sakthi",
+    "city":"Attayampatti"
+}
+
+DELETE http://localhost:2020/delete/4
